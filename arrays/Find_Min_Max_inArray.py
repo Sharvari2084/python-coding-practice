@@ -16,5 +16,5 @@ def min_max_no(arr):
 
 
 arr = [10,12,6,8,15]
-print(min_max_no(arr))
+min_max_no(arr)
 
