@@ -12,4 +12,4 @@ def reverse_arr(arr):
     return arr
 
 arr = [ 1,2,3,4,5]
-print(reverse_arr(arr))
+reverse_arr(arr)
