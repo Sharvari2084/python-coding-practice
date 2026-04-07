@@ -1,3 +1,5 @@
+# 10. Rotate Array (Right by k)
+
 def reverse(arr, start, end):
     while start < end:
         arr[start], arr[end] = arr[end], arr[start]
@@ -15,9 +17,7 @@ def right_rotate(arr, k):
 
     return arr
 
-
-# Example
 arr = [1, 2, 3, 4, 5]
 k = 2
-print("Original array:",arr)
+print("Original array:", arr)
 print("Right Rotate:", right_rotate(arr, k))
